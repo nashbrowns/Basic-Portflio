@@ -1,12 +1,12 @@
-#masthead {
+   #masthead {
     position: fixed;
-    top: 0;
     z-index: 99;
     width: 100%;
+    margin: 0 0 30px;
     overflow: auto;
-    color: #fff;
-    background: #fff;
-    border-bottom: 2px solid #ccc;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
   }
   
   #logo {
@@ -56,20 +56,20 @@
  } 
 
 h1{
-    /* font-family: 'Georgia', Times, "Times New Roman", serif; */
     font-size: 24px;
     padding: 20px;
 }
 
 h3{
     background:#4aaaa5;
-    /* font-family: Georgia, Times, "Times New Roman", serif; */
     color: #fff;
 
 }
 
 body{
     background-image: url("../images/bananas.png");
+    margin: 0px;
+    font-size: 18px;
 }
 
 .image-class{
@@ -97,6 +97,7 @@ body{
     text-align: left;
     width: 960px;
     margin: 0 auto;
+    margin-bottom: 40px;
     line-height:1.8; 
     flex: 1 0 auto;
 
